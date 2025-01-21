@@ -50,7 +50,7 @@ if page == "Home":
         """,
         unsafe_allow_html=True
     )
-    st.image(home_image, caption="Providing Care for Your Mental Well-being", use_column_width=True)
+    st.image(caption="Providing Care for Your Mental Well-being", use_column_width=True)
     st.markdown("### Why Choose Us?")
     st.write(
         "- Experienced professionals with a compassionate approach.\n"
@@ -76,7 +76,7 @@ elif page == "Services":
         """,
         unsafe_allow_html=True
     )
-    st.image(services_image, caption="Explore Our Range of Services", use_column_width=True)
+    st.image(caption="Explore Our Range of Services", use_column_width=True)
     service_details = {
         "Individual Therapy": "Personalized one-on-one sessions to address anxiety, depression, stress, and other challenges.",
         "Couples Therapy": "Helping couples strengthen their relationships and navigate conflicts.",
@@ -100,7 +100,7 @@ elif page == "About Us":
         """,
         unsafe_allow_html=True
     )
-    st.image(about_image, caption="Meet Your Trusted Psychologist", use_column_width=True)
+    st.image(caption="Meet Your Trusted Psychologist", use_column_width=True)
     st.write(
         "Our lead psychologist, Dr. Alex Taylor, holds over 15 years of experience in clinical psychology. "
         "With a passion for mental health, Dr. Taylor has helped countless individuals and families overcome challenges "
